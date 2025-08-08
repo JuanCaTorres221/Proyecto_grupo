@@ -14,4 +14,7 @@ Este proyecto es una practica colaborativa para aprender Git y GitHub. Incluye u
 - git pull origin [rama]: Actualiza tu rama local con los ultimos cambios de main
 - git merge nombre-rama: Fusiona una rama con la rama actual
 - git rebase main: Reorganiza tus commits sobre la rama main
+
+## Link repositorio
+ - https://github.com/JuanCaTorres221/Proyecto_grupo.git
   
