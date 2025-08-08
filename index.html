@@ -55,6 +55,27 @@
             padding: 5px 0;
         }
 
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 15px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #66a6ff;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
         footer {
             margin-top: auto;
             padding: 15px;
@@ -80,11 +101,36 @@
         <section>
             <h2>Participantes</h2>
             <ul>
-                <li>Colaborador: <strong>Maria Clara Gomez</strong></li>
-                <li>Colaborador: <strong>Mariana Rodriguez</strong></li>
-                <li>Colaborador: <strong>Juan Camilo Torres</strong></li>
-                <li>Colaborador: <strong>Jacobo Urrea</strong></li>
+                <li>Colaborador: Maria Clara Gomez</li>
+                <li>Colaborador: Mariana Rodriguez</li>
+                <li>Colaborador: Juan Camilo Torres</li>
+                <li>Colaborador: Jacobo Urrea</li>
+
             </ul>
+
+            <h3>Hobbies de los participantes</h3>
+            <table>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Hobby</th>
+                </tr>
+                <tr>
+                    <td>Maria Clara Gomez</td>
+                    <td>Leer novelas</td>
+                </tr>
+                <tr>
+                    <td>Mariana Rodriguez</td>
+                    <td>Bailar salsa</td>
+                </tr>
+                <tr>
+                    <td>Juan Camilo Torres</td>
+                    <td>Jugar fútbol</td>
+                </tr>
+                <tr>
+                    <td>Jacobo Urrea</td>
+                    <td>Jugar Videojuegos</td>
+                </tr>
+            </table>
         </section>
 
         <hr>
@@ -95,7 +141,8 @@
     </main>
 
     <footer>
-        &copy; 2025 Proyecto - Desarrollo de Software
+        &copy; 2025 Proyecto - Desarrollo de software
+
     </footer>
 </body>
 </html>
