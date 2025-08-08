@@ -35,7 +35,6 @@
         main {
             background: white;
             border-radius: 12px;
-
             padding: 22px;
             max-width: 800px;
             margin: 30px;
@@ -57,6 +56,27 @@
             padding: 5px 0;
         }
 
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 15px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #66a6ff;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
         footer {
             margin-top: auto;
             padding: 15px;
@@ -71,7 +91,6 @@
 <body>
     <header>
         <h1>Laboratorio 1 | Primera Practica </h1>
-
     </header>
 
     <main>
@@ -83,11 +102,35 @@
         <section>
             <h2>Participantes</h2>
             <ul>
-                <li>Colaborador: [Maria Clara Gomez]</pli>
-                <li>Colaborador: [Mariana Rodriguez]</li>
-                <li>Colaborador: [Juan Camilo Torres]</li>
-                <li>Colaborador: [Jacobo Urrea]</li>
+                <li>Colaborador: Maria Clara Gomez</li>
+                <li>Colaborador: Mariana Rodriguez</li>
+                <li>Colaborador: Juan Camilo Torres</li>
+                <li>Colaborador: Jacobo Urrea</li>
             </ul>
+
+            <h3>Hobbies de los participantes</h3>
+            <table>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Hobby</th>
+                </tr>
+                <tr>
+                    <td>Maria Clara Gomez</td>
+                    <td>Leer novelas</td>
+                </tr>
+                <tr>
+                    <td>Mariana Rodriguez</td>
+                    <td>Bailar salsa</td>
+                </tr>
+                <tr>
+                    <td>Juan Camilo Torres</td>
+                    <td>Jugar fútbol</td>
+                </tr>
+                <tr>
+                    <td>Jacobo Urrea</td>
+                    <td>Jugar Videojuegos</td>
+                </tr>
+            </table>
         </section>
         <hr>
         <p>Este texto es una prueba</p>
@@ -95,7 +138,6 @@
 
     <footer>
         &copy; 2025 Proyecto - Desarrollo de software
-
     </footer>
 </body>
 </html>
