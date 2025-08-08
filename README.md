@@ -1,5 +1,5 @@
 # Proyecto_grupo
-Primera practica de uso de git y github en grupo
+Primera practica de uso de git y github en grupo.
 ## Descripción del proyecto  
 Este proyecto es una practica colaborativa para aprender Git y GitHub. Incluye una pagina web básica (index.html) donde cada miembro del equipo añade su nombre, su rama y contribuciones.
 
